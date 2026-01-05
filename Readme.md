@@ -63,10 +63,10 @@ SendGrid - Email notifications
 
 
 Features
- Idempotent Transaction Creation - Prevents duplicate charges
- Stripe Payment Integration - Create and manage PaymentIntents
- Background Reconciliation Worker - Automatic status synchronization
- Exponential Backoff Retry - Smart retry strategy for transient failures
- Email Notifications - Success, failure, and stuck transaction alerts
- Transaction History API - View all transactions with pagination
- Audit Trail - Every reconciliation attempt is logged
+->Idempotent Transaction Creation - Prevents duplicate charges
+->Stripe Payment Integration - Create and manage PaymentIntents
+->Background Reconciliation Worker - Automatic status synchronization
+->Exponential Backoff Retry - Smart retry strategy for transient failures
+->Email Notifications - Success, failure, and stuck transaction alerts
+->Transaction History API - View all transactions with pagination
+->Audit Trail - Every reconciliation attempt is logged
