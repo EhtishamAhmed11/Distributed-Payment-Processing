@@ -1,0 +1,22 @@
+{
+  "name": "distributed-payment-processing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "bull": "^4.16.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "nodemailer": "^7.0.12",
+    "pg": "^8.16.3",
+    "stripe": "^20.1.0"
+  }
+}
